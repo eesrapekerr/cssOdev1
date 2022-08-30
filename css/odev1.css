@@ -1,0 +1,89 @@
+/********************************index***************************/
+.anasayfa {
+    background-color: #F7ECDE;
+}
+
+article {
+    font-family: 'Lobster', cursive;
+    font-size: large;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+.iconsagiyazi {
+    width: 900px;
+    margin: auto;
+}
+
+.sola-kaydir {
+    float: left;
+    padding: 7px 20px 20px 7px;
+}
+
+.menu ul {
+    background-color: #9ED2C6;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    padding: 12px 14px;
+}
+
+/*******************************burclar***********************/
+.burclar {
+    background-color: #E9DAC1;
+}
+
+.akerdion {
+    border: 5px solid #54BAB9;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 1.04%;
+    background-color: #9ED2C6;
+}
+
+.ozet {
+    border-radius: 5px;
+    cursor: pointer;
+    margin: -1%;
+    padding: 8px 10px;
+}
+
+details,
+summary {
+    display: block;
+}
+
+details summary:before {
+    content: " + ";
+}
+
+details[open] summary:before {
+    content: " - ";
+}
+
+/********************************evAnlamlari**************************/
+
+.evanlamlari {
+    /*your background image*/
+    background-repeat: no-repeat;
+    /*we want to have one single image not a repeated one*/
+    background-size: cover;
+    background-position: bottom center;
+}
+.baslik{
+    color: #54BAB9;
+}
+.metin{
+    color: rgb(226, 142, 23);
+}
